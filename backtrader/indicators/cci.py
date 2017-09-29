@@ -23,6 +23,7 @@ from __future__ import (absolute_import, division, print_function,
 
 from . import Indicator, Max, MovAv, MeanDev
 
+__all__ = ['CCI', 'CommodityChannelIndex']
 
 class CommodityChannelIndex(Indicator):
     '''

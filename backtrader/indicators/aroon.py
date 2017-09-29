@@ -24,6 +24,10 @@ from __future__ import (absolute_import, division, print_function,
 from . import Indicator, FindFirstIndexHighest, FindFirstIndexLowest
 
 
+__all__ = ['AroonDown', 'AroonIndicator', 'AroonOsc', 'AroonOscillator', 'AroonUp', 'AroonUpDown', 'AroonUpDownOsc',
+           'AroonUpDownOscillator']
+
+
 class _AroonBase(Indicator):
     '''
     Base class which does the calculation of the AroonUp/AroonDown values and

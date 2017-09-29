@@ -29,6 +29,12 @@ from ..utils.py3 import map, range
 
 from . import Indicator
 
+__all__ = ['Accum', 'AllN', 'AnyN', 'ApplyN', 'ArithmeticMean', 'Average', 'AverageWeighted', 'BaseApplyN',
+           'CumSum','CumulativeSum', 'ExponentialSmoothing', 'ExponentialSmoothingDynamic', 'ExpSmoothing',
+           'ExpSmoothingDynamic', 'FindFirstIndex', 'FindFirstIndexHighest', 'FindFirstIndexLowest', 'FindLastIndex',
+           'FindLastIndexHighest', 'FindLastIndexLowest','Highest','Lowest', 'MaxN', 'Mean', 'MinN', 'OperationN',
+           'PeriodN', 'ReduceN', 'SumN', 'WeightedAverage']
+
 
 class PeriodN(Indicator):
     '''

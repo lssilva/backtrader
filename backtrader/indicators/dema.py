@@ -25,6 +25,10 @@ from __future__ import (absolute_import, division, print_function,
 from . import Indicator, MovingAverageBase, MovAv
 
 
+__all__ = ['DEMA', 'MovingAverageDoubleExponential', 'DoubleExponentialMovingAverage', 'TEMA',
+           'MovingAverageTripleExponential', 'TripleExponentialMovingAverage']
+
+
 class DoubleExponentialMovingAverage(MovingAverageBase):
     '''
     DEMA was first time introduced in 1994, in the article "Smoothing Data with
